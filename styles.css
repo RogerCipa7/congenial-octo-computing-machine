@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('fond.jpg'); /* Cambia 'fondo.jpg' por la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; /* Cambia la fuente según tu preferencia */
+}
+
+.container {
+    width: 100%;
+    max-width: 600px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    padding: 20px;
+    color: #fff; /* Cambia el color del texto según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Agrega un fondo semitransparente */
+    border-radius: 10px; /* Añade bordes redondeados al contenedor */
+    text-align: center; /* Centra el contenido del formulario */
+}
+
+.container img {
+    display: block;
+    margin: 0 auto 20px; /* Centra la imagen y agrega espacio debajo */
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+}
+
+form {
+    margin-top: 20px; /* Espacio entre la parte superior del formulario y el contenedor */
+}
+
+.input-group {
+    margin-bottom: 20px; /* Espacio entre cada grupo de entrada */
+    text-align: left; /* Alinea el texto de los campos a la izquierda */
+}
+
+h2 {
+    margin-top: 0; /* Elimina el espacio superior de los encabezados */
+    font-size: 30px; /* Tamaño del texto para h2 */
+	
+}
+
+h3 {
+    margin-top: 0; /* Elimina el espacio superior de los encabezados */
+    font-size: 25px; /* Tamaño del texto para h3 */
+    margin-bottom: 0; /* Elimina el margen inferior de los encabezados */
+}
+
+h4 {
+    margin-top: 0; /* Elimina el espacio superior de los encabezados */
+    font-size: 25px; /* Tamaño del texto para h3 */
+    margin-bottom: 0; /* Elimina el margen inferior de los encabezados */
+}
+
+
+
+.title-line-red {
+    width: 500px; /* Ancho de la línea roja */
+    height: 8px; /* Grosor de la línea roja */
+    background-color: red; /* Color de la línea roja */
+    margin: 10px auto; /* Centra la línea roja horizontalmente y agrega espacio */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+    width: 100%;
+    padding: 7px;
+    border-radius: 7px;
+    border: none;
+    background-color: white; /* Cambia el color de fondo del campo de entrada */
+}
+
+.button-container {
+    text-align: center; /* Alinea el contenido del contenedor al centro */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: red; /* Color de fondo del botón */
+    border: none;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Agrega espacio arriba del botón */
+}
+
+button:hover {
+    background-color: white; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+}
