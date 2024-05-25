@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Venta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="Dodge.jpg" alt="Logo de Dodge">
+
+        <center>
+            <h2>Formulario de Venta</h2>
+            <h3>Datos Cliente</h3>
+            <div class="title-line-red"></div>
+            <!-- Línea roja debajo del título "Datos del Cliente" -->
+        </center>
+        <form method="post">
+            <div class="input-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="input-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div class="input-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div class="input-group">
+                <label for="correoElectronico">Correo Electrónico:</label>
+                <input type="email" id="correoElectronico" name="correoElectronico" required>
+            </div>
+            <div class="input-group">
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required>
+            </div>
+            <center>
+                <h4>Datos de la Venta </h4>
+                <div class="title-line-red"></div>
+                <!-- Línea roja debajo del título "Datos de la Venta" -->
+            </center>
+            <div class="input-group">
+                <label for="referenciaCarro">Referencia del Carro:</label>
+                <input type="text" id="referenciaCarro" name="referenciaCarro" required>
+            </div>
+            <div class="input-group">
+                <label for="fechaVenta">Fecha de Venta:</label>
+                <input type="date" id="fechaVenta" name="fechaVenta" required>
+            </div>
+            <div class="input-group">
+                <label for="montoTotal">Monto Total:</label>
+                <input type="number" id="montoTotal" name="montoTotal" step="0.01" required>
+            </div>
+            <button type="submit">Registrar Venta</button>
+        </form>
+
+        <footer>
+            <p>&copy; 2024 Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
