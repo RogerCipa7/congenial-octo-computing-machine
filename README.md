@@ -22,6 +22,12 @@ En esta sección se solicitan datos relacionados con la venta, como referencia d
 ### Funcionalidad:
 El formulario está diseñado para ser enviado utilizando el método POST, lo que permite que los datos ingresados por el usuario se envíen de forma segura al servidor para su procesamiento posterior.
 
+
+
+##Uso de bd :
+
+El propósito de este script PHP es recibir datos de un formulario web y almacenarlos en una base de datos MySQL. Los datos se dividen en dos categorías principales: información del cliente y detalles de la venta. Estos datos se guardan en dos tablas relacionadas, `clientes` y `ventas`.
+
 ## Personalización de Estilos CSS:
 
 ### Fondo de Pantalla:
