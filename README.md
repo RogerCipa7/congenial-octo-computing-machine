@@ -24,8 +24,7 @@ El formulario está diseñado para ser enviado utilizando el método POST, lo qu
 
 
 
-##Uso de bd :
-
+## Uso de bd :
 El propósito de este script PHP es recibir datos de un formulario web y almacenarlos en una base de datos MySQL. Los datos se dividen en dos categorías principales: información del cliente y detalles de la venta. Estos datos se guardan en dos tablas relacionadas, `clientes` y `ventas`.
 
 ## Personalización de Estilos CSS:
@@ -54,6 +53,11 @@ Las modificaciones realizadas tanto en el desarrollo del formulario de venta com
 
 
 ## Resultado de la Página
+
 Puedes ver la página web en acción [aquí](https://roger-form-srt.netlify.app/).
 
 ![Formulario](https://github.com/RogerCipa7/congenial-octo-computing-machine/blob/main/form-dodge.png)
+
+## Diseñador BD
+
+![BD](https://github.com/RogerCipa7/form-Html_SRT/blob/main/relacion.png)
